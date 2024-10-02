@@ -1,0 +1,15 @@
+.numbers{
+    display: flex;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,200px);
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: wheat;
+}

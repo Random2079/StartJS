@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    background: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    background: lightgray;
+}
+
+.dark-mode-headear {
+    background-color:rgb(37, 35, 35);
+    color: rgb(186, 186, 204);
+}
+
+.header-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-element {
+    padding: 15px;
+}
+
+.header-element > .btn {
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* определяет направление по оси (горизонтально или вертикально, в строку или в колонку) */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    height: 800px;
+    width: 300px;
+    gap: 5px;
+}
+
+.item {
+    background: coral;
+    font-size: 32px;
+    padding: 25px;
+}
+
+.calculatorBlock {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+
+label {
+    padding: 10px;
+}
+
+input{
+    margin-left: 10px;
+}
+
+#calculateButton {
+    margin-left: 10px;
+}

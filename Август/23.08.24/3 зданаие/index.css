@@ -1,0 +1,24 @@
+body{
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+.conteiner{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   gap: 5px;
+}
+
+.item{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   padding: 10px;
+   background-color: blue;
+   color: white;
+}

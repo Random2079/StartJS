@@ -1,0 +1,32 @@
+.title{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form_name_email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding_form{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.button_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 25px;
+
+}
+
