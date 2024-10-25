@@ -2,18 +2,18 @@
 // То есть, на вход поступает массив из чисел [2, 4, 5], вычисления 2^2 + 4^2 + 5^2, вывод ответа - 45. 
 // Примечание - добавь проверку на пустой массив. Для решения задачи используй встроенный метод .reduce(). 
 
-// function sumOfSquares(arr) {
-//     if (arr.length === 0) {
-//         console.log('Пусто') 
-//     }
-//     // return arr.reduce((sum, num) => sum + num ** 2, 0);
-//     arr.forEach(element => {
-//         result = element ** 2
-//     });
-// }
+function sumOfSquares(arr) {
+    if (arr.length === 0) {
+        console.log('Пусто') 
+    }
+    // return arr.reduce((sum, num) => sum + num ** 2, 0);
+    arr.forEach(element => {
+        result = element ** 2
+    });
+}
 
-// const numbers = [2, 4, 5];
-// console.log(sumOfSquares(numbers)); 
+const numbers = [2, 4, 5];
+console.log(sumOfSquares(numbers)); 
 
 // Напиши стрелочную функцию, которая принимает булево значение (true/false), и выводит текстовый формат 
 // Yes/No, в зависимости от значения. Найди максимально лаконичное и короткое решение для этого задания. 
