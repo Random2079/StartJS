@@ -5,6 +5,7 @@ body{
     padding: 0;
     background-color: white;
     font: 18px/1.3 'Raleway', 'Open Sans', sans-serif;
+    overflow: auto;
 }
 
 .hide{
@@ -12,7 +13,10 @@ body{
 }
 
 .wraper{
+    width: 100%;
+    height: 100%;
     display: flex;
+    overflow: hidden;
 }
 
 .sidebar:hover{
@@ -28,6 +32,20 @@ body{
     align-items: center;
     justify-content: start;
 }
+
+.change-icon > .fa-bars {
+    visibility: hidden;
+}
+
+.change-icon > .fa-xmark {
+ visibility: visible;
+}
+
+.sidebar__icon{
+    cursor: pointer;
+}
+
+
 .fa-bars{
     visibility: visible;
     position: absolute;
@@ -52,20 +70,29 @@ body{
     width: 100%;
 }
 
+.h1{
+    display: flex;
+    justify-content: center;
+}
+
 .main__content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 60px;
-    width: 95%;
+    margin-left: 50px;
+    padding: 50px;
+    width: 85%;
     transition: .3s all;
+
 }
 
 .main_bg{
     background-color: rgb(230, 223, 194);
+    
+
 }
 
 .main__content_bg{
     background-color: rgb(211, 202, 191);
     transform: scale(0.9) ;
+    max-height: 80vh;
+    overflow: auto;
+    margin-left: 200px;
 }
